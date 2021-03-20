@@ -1,2 +1,3 @@
-# megalodon-chess.github.io
-GitHub pages website for Megalodon Chess.
+# Megalodon Chess
+
+Open source chess engine and GUI.
