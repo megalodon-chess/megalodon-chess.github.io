@@ -16,6 +16,10 @@ It uses the Pygame module to generate the graphics.
 
 * [Source code][hammerhead]
 
+## Blog
+
+Visit the blog [here][blog]!
+
 ## Contributing
 
 ### Editing the Code
@@ -40,6 +44,7 @@ This is done using the [Sharktest][sharktest] system.
 The Megalodon team has plans to implement neural networks into Megalodon
 in the future, which will require even more tuning!
 
+[blog]: https://megalodon-chess.github.io/blog
 [megalodon]: https://github.com/megalodon-chess/megalodon
 [megalodon-docs]: https://megalodon-chess.github.io/megalodon
 [hammerhead]: https://github.com/megalodon-chess/hammerhead
