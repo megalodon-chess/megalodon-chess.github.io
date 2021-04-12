@@ -48,6 +48,8 @@ Our team will review the changes and may merge them.
 
 **A:** Megalodon's features are always in development and changing. You can view the latest release [here][latest].
 
+[megalodon]: https://github.com/megalodon-chess/megalodon/
+[megalodon-docs]: https://megalodon-chess.github.io/megalodon/
 [authors]: https://github.com/megalodon-chess/megalodon/blob/main/AUTHORS
 [elo]: https://megalodon-chess.github.io/megalodon/elo
 [lichess]: https://lichess.org/@/megalodon-chess
