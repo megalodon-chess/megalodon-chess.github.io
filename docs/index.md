@@ -9,43 +9,46 @@ Megalodon is a chess engine written in C++.
 * [Source code][megalodon]
 * [Documentation][megalodon-docs]
 
-## Hammerhead
-
-Hammerhead is a chess GUI writte in Python.
-It uses the Pygame module to generate the graphics.
-
-* [Source code][hammerhead]
-
-## Blog
-
-Visit the blog [here][blog]!
-
 ## Contributing
 
-### Editing the Code
-
 Please fork one of the repositories, make your changes, and create a pull request.
-
 Our team will review the changes and may merge them to the main repository.
 
 You can also develop your own technologies using Megalodon as a starting point.
+However, they must also be licensed as GNU GPL 3.
 
-### Tuning Evaluation
+## FAQ
 
-Megalodon's evaluation function contains many areas,
-such as material, kings, pawns, etc.
+**Q:** Who are the developers behind Megalodon?
 
-These have weights to them, but they are not tuned yet.
-You can help tune them by having Megalodon play against itself
-on your computer.
+**A:** All the authors are included in [this file][authors].
 
-This is done using the [Sharktest][sharktest] system.
+**Q:** How do I play against Megalodon?
 
-The Megalodon team has plans to implement neural networks into Megalodon
-in the future, which will require even more tuning!
+**A:** The most comfortable way to play against it is by using a UCI compatible chess GUI.
+There are many good and free ones available.
 
-[blog]: https://megalodon-chess.github.io/blog
-[megalodon]: https://github.com/megalodon-chess/megalodon
-[megalodon-docs]: https://megalodon-chess.github.io/megalodon
-[hammerhead]: https://github.com/megalodon-chess/hammerhead
-[sharktest]: https://github.com/megalodon-chess/sharktest
+**Q:** Can I download and sell Megalodon?
+
+**A:** Yes, you can. The GPL license allows you to download, modify, and/or sell.
+The only condition is you must make the new source code available,
+and you must state the changes you made, if any.
+
+**Q:** Can I contribute to Megalodon?
+
+**A:** Of course! We are thankful for all contributions.
+Please fork the repository, make your changes, and create a pull request.
+Our team will review the changes and may merge them.
+
+**Q:** What is Megalodon's rating?
+
+**A:** We only have [relative tests][elo], but you can check the value on websites like CCRL and [Lichess][lichess].
+
+**Q:** What are Megalodon's features?
+
+**A:** Megalodon's features are always in development and changing. You can view the latest release [here][latest].
+
+[authors]: https://github.com/megalodon-chess/megalodon/blob/main/AUTHORS
+[elo]: https://megalodon-chess.github.io/megalodon/elo
+[lichess]: https://lichess.org/@/megalodon-chess
+[latest]: https://github.com/megalodon-chess/megalodon/releases/latest
